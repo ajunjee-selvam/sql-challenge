@@ -1,7 +1,17 @@
 # sql-challenge
 This project is an example SQL analysis assignment where we are tasked as a new data engineer for Perlett-Hackard to design the tables to hold the employee data and answer questions about the data. 
 
-Please see below for the contents of the 'EmployeeSQL' directory
+## Steps Included
+- data modelling and data engineering
+    - creating a table schemata for each of the 6 csv files and importing the data into SQL 
+- data analysis
+    - generatiing queries in order to provide the requested info
+
+## Technologies Used
+- Postgres SQL
+- QuickDBD
+
+## 'EmployeeSQL' directory contents
 - 'data' folder 
     - this contains the 6 csv files that were used to create the employee database in SQL
 - QuickDBD-export-ERD Sketch
