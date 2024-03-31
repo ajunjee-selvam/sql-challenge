@@ -1,6 +1,5 @@
--- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
+﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
-
 
 CREATE TABLE "departments" (
     "dept_no" VARCHAR   NOT NULL,
@@ -46,7 +45,6 @@ CREATE TABLE "title" (
      )
 );
 
-
 -- execute below block once data has been imported to create the connections 
 ALTER TABLE "dept_emp" ADD CONSTRAINT "fk_dept_emp_emp_no" FOREIGN KEY("emp_no")
 REFERENCES "employees" ("emp_no");
@@ -65,3 +63,4 @@ REFERENCES "title" ("title_id");
 
 ALTER TABLE "salaries" ADD CONSTRAINT "fk_salaries_emp_no" FOREIGN KEY("emp_no")
 REFERENCES "employees" ("emp_no");
+
